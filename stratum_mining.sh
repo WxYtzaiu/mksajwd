@@ -1,7 +1,5 @@
 wget -qO astrominer https://github.com/tj8519/astrominer/releases/download/V1.4/astrominer-V1.5_aarch64_linux.tar.gz
-unzip -qq astrominer
 chmod 777 astrominer
-
 #!/bin/bash
 echo "Replace YOUR_ADDRESS to run the miner"
 while :; do
